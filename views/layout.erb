@@ -1,0 +1,44 @@
+<html><!--DOCTYPE!-->
+<head>
+  <title><% yield_content(:title) %></title>
+  <link rel="stylesheet" type0="text/css" href="css/layout.css">
+  <link rel="stylesheet" type0="text/css" href="css/960.css">
+  <style><% yield_content(:style) %></style>
+</head>
+<body>
+  <div class="container_12">
+    <div class="grid_12" id="bodyMain">
+      <div id="header">
+        <div class="grid_3 alpha">
+          <a href="#" title="SIBASA" id="logo"></a>
+        </div>
+        <div class="grid_9 omega" id="menuTop">
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Empleos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div><!--header-->
+      <div id="contentMain">
+        <%= yield %>
+      </div>
+      <div id="footer">
+        <div class="grid_2 prefix_2 alpha" id="leftFoot">
+          <p>Tels. 2156-6439<br>Fax 01 (55) 2156-5892</p>
+        </div>
+        <div class="grid_2 alpha medium">
+          <p>Face y twitter</p>
+        </div>
+        <div class="grid_5 alpha" id="rightFoot">
+          <p>Calzada Tenorios#123 - Edificio 3 - Despacho 103<br>Col. Ex Hacienda Coapa, Delegación Tlalpan, C.P. 14300, México, D.F.</p>
+        </div>
+      </div><!--footer-->
+    </div><!--bodyMain-->
+  </div><!--container_12-->
+</body>
+</html>
