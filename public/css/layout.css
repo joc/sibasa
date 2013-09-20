@@ -64,11 +64,7 @@ a#logo {
 /* --- Fin Menu --- */
 
 #contentMain {
-  height:300px;
-}
-
-#contentMain div{
-
+  height:auto;
 }
 
 #footer {

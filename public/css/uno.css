@@ -1,0 +1,109 @@
+#contentMain {
+  height:550px;
+}
+
+#LeftBox {
+  position:relative;
+  margin-top:-90px;
+  z-index:6;
+}
+
+#L01 {
+  width:378px;
+  height:77px;
+  margin-left:240px;
+  margin-top:41px;
+}
+
+#L02 {
+  width:459px;
+  height:254px;
+  margin-left:160px;
+  margin-top:128px;
+  background:transparent url(../img/tema03.jpg);
+}
+
+#L03 {
+  width:550px;
+  height:143px;
+  margin-left:70px;
+  margin-top:393px;
+  background:transparent url(../img/tema01.jpg) no-repeat;
+}
+
+#R01 {
+  width:299px;
+  height:199px;
+  margin-left:630px;
+  margin-top:41px;
+}
+
+#R02 {
+  width:299px;
+  height:199px;
+  margin-left:630px;
+  margin-top:250px;
+}
+
+#R03 {
+  width:299px;
+  height:77px;
+  margin-left:630px;
+  margin-top:460px;
+}
+
+.caja {
+  position:absolute;
+  background-color:#35440C;
+}
+
+.corners {
+  border-radius:10px 0 10px 0;
+}
+
+.typo {
+  font-size:30px;
+  margin:13px 0 0 17px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.border {
+  border:15px solid transparent;
+  border-image:url(../img/borderTyB.png) 30 30 round;
+  -webkit-border-image:url(../img/borderTyB.png) 30 30 round; /* Safari 5 and older */
+-o-border-image:url(../img/borderTyB.png) 30 30 round; /* Opera */
+  margin:0;
+}
+
+.fondo {
+  background-color:#FFFFFF;/*color blanco*/
+  color:#000000;/*letras negras*/
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE */
+}
+
+.fondo2 {
+  background-color:#FFFFFF;/*color blanco*/
+  color:#000000;/*letras negras*/
+  opacity:0.9;
+  filter:alpha(opacity=90); /* For IE */
+}
+
+.fondo:link, .fondo:visited{
+  transition-property:color;
+  transition-duration:0.5s;
+  -moz-transition-property: color; /* Firefox 4 */
+	-webkit-transition-property:color; /* Safari and Chrome */
+	-o-transition-property:color; /* Opera */
+	-webkit-transition-duration: 0.5s; /* Safari */
+}
+
+.fondo:hover, .fondo:active {
+  background-color:#000000;
+  color:white;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE */
+}
+
+
+

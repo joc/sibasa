@@ -3,11 +3,11 @@ require 'rubygems'
 require 'sinatra/content_for'
 
 get '/' do
-  erb :index
+  erb :uno
 end
 
 get '/inicio' do
-  erb :index
+  erb :uno
 end
 
 get '/fondo' do
