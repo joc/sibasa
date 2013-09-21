@@ -2,6 +2,10 @@
 Inicio
 <% end %>
 
+<% content_for (:styleSheet) do %>
+<link rel="stylesheet" type="text/css" href="css/uno.css">
+<% end %>
+
 <% content_for (:style) do %>
 #box {
   height:100px;
@@ -12,7 +16,23 @@ Inicio
 h1 {
   text-align:center;
 }
+
+#test {
+  background-color:#FF55AA;
+    border-radius:10px 0 10px 0;
+  -webkit-border-radius:10px 0 10px 0;
+  -moz-border-radius:10px 0 10px 0;
+  
+}
+
 <% end %>
-<div class="grid_12 alpha" id="box">
+<div class="grid_5 prefix_4 corners" id="box">
   <h1>Hola Primate!!</h1>
+</div>
+<div class="clear"></div>
+<div class="grid_2 prefix_4">
+  <h1>Torito!!</h1>
+</div>
+<div class="grid_4 alpha" id="test">
+  <h1>NOOO!!</h1>
 </div>
