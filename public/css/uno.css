@@ -61,6 +61,7 @@
   border-radius:10px 0 10px 0;
   -webkit-border-radius:10px 0 10px 0;
   -moz-border-radius:10px 0 10px 0;
+  behavior: url(/pie/PIE.htc); /* pie css3 */
 }
 
 .typo {
