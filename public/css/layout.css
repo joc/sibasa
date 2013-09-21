@@ -4,8 +4,8 @@
   text-align:center;
 }*/
 
-#bodymain {
-  background-color:red;/*naranja #FF6600*/
+#bodyMain {
+  background-color:#FF6600;/*naranja*/
 /*  background:url(../images/960_grid_12_col.png) no-repeat center;*/
   font-family:Verdana, Geneva, sans-serif;
 }
@@ -85,12 +85,6 @@ a#logo {
 
 #rightFoot {
   text-align:left;
-}
-
-#sign {
-  position:relative;
-  top:-50px;
-  z-index:;
 }
 
 .medium {
