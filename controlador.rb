@@ -18,7 +18,6 @@ get '/dos' do
   erb :dos
 end
 
-get '/uno' do
-  erb :uno
-end
+
+
 

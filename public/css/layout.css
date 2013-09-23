@@ -15,10 +15,14 @@
 }
 
 a#logo {
-  background:url(../img/logotipo_B.png) no-repeat;
+  background:white url(../img/logotipo_B.png) no-repeat;
   width:222px;
   height:96px;
   float:left;
+    border-radius:0 0 8px 0;
+  -webkit-border-radius:0 0 15px 0;
+  -moz-border-radius:0 0 15px 0;
+  behavior: url(../pie/PIE.htc); /* pie css3 */
 /*  opacity:0.4;*/
 }
 

@@ -2,10 +2,88 @@
 dos
 <% end %>
 
-<div id="mono">
-  <div class="grid_6 alpha"><p>left</p></div>
-  <div class="grid_6 omega"><p>right</p></div>
-  <div class="grid_12 alpha"><p>Bienvenido Tiburonsin</p></div>
-</div>
+<% content_for (:styleSheet) do %>
+<link rel="stylesheet" type="text/css" href="css/dos.css">
+<link rel="stylesheet" type="text/css" href="css/uno.css">
+<% end %>
 
-<!--<img src="img/index_content.png"-->
+<div id="contentDos">
+  <div class="grid_6 prefix_3">
+    <div class="corners" id="boxContent">
+      <!-- esta es una ruta de localizacion de Productos y Servicios -->
+      <p class="root">Ruta &lt; Productos </p> 
+      <!--A continuacion va el Titulo Pricipal de la Sección o Pagina -->
+      <h1 class="titleMain"> 
+        Etiquetas, Protectores y C&oacute;digos de Barras
+      </h1>
+      <!--sigue la Sección de texto e informacion escrita -->
+      <p class="textMain">
+        Lorem ipsum dolor sit amet, accumsan porta ad wisi. Neque adipiscing gravida fusce pulvinar lorem libero, nulla sed. Aliquet posuere dui in leo, pede dui duis et sed in, wisi quam nascetur ultrices orci et, mauris sed ut. Odio enim elit arcu, consequat eget. Fermentum ipsum aliquet facilisi porttitor, mauris erat sollicitudin pede id neque tincidunt, quis vitae lorem, id mus per. Quisque eu et vivamus mauris fermentum fringilla, adipiscing posuere in tellus. Quisque officia dui nibh at tellus, interdum nec at mollis semper sit. Feugiat erat etiam nulla laoreet.
+      </p>
+      <p class="acotacion">(4 elementos)</p>
+      <!--Inicia triada de cajas-->
+      <div class="boxOut">
+        <a href="#">
+        <div class="boxZ corners" id="EPyC01"></div>
+        <p class="middle">Producto 01</p>
+        </a>
+      </div>
+      <div class="boxOut">
+        <a href="#">
+        <div class="boxZ corners" id="EPyC02"></div>
+        <p class="middle">Producto 02</p>
+        </a>
+      </div>
+      <div class="boxOut">
+        <div class="boxZ corners"></div>
+        <p class="middle fantasma">Producto 01</p>
+      </div>
+      <!--Fin triada de cajas-->
+      <!--Inicia triada de cajas-->
+      <div class="boxOut">
+        <div class="boxZ corners"></div>
+        <p class="middle fantasma">Producto 03</p>
+      </div>
+      <div class="boxOut">
+        <a href="#">
+        <div class="boxZ corners" id="EPyC01"></div>
+        <p class="middle">Producto 03</p>
+        </a>
+      </div>
+      <div class="boxOut">
+        <a href="#">
+        <div class="boxZ corners" id="EPyC02"></div>
+        <p class="middle">Producto 04</p>
+        </a>
+      </div>
+      <!--Fin triada de cajas-->
+      <!--Este fanstasma hace que el color de fondo de la caja boxContent abarque hasta esta etiqueta con la propiedad de Visivilidad Oculta -->
+      <p class="fantasma">Fin</p>
+    </div><!--boxContent-->
+  </div><!-- grid_6 prefix_3 -->
+  <!--Inicia cajas al costado derecho -->
+  <div class="grid_3" id="cajasDerecha">
+    <div class="corners cajasD" id="Rdos01">
+      <a href="#">
+        <div class="border corners fondo">
+          <h1 class="typo2">Odio enim elit arcu</h1>
+        </div>
+      </a>
+    </div><!-- cajaD -->
+    <div class="corners cajasD" id="Rdos01">
+      <a href="#">
+        <div class="border corners fondo">
+          <h1 class="typo2">Servicio 02</h1>
+        </div>
+      </a>
+    </div><!-- cajaD -->
+    <div class="corners cajasD" id="Rdos01">
+      <a href="#">
+        <div class="border corners fondo title2"> 
+          <h1 class="typo2">vestibulum elit <br>nisl quam vestibulum elit nisl quam</h1><!--ver class typo2 en dos.css-->
+        </div>
+      </a>
+    </div><!-- cajaD -->
+  </div><!--cajasDerecha-->
+</div><!--contenidoDos-->
+

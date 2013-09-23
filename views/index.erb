@@ -1,38 +1,53 @@
 <% content_for (:title) do %>
-Inicio
+:::SIBASA:::
 <% end %>
 
-<% content_for (:styleSheet) do %>
+<% content_for (:styleSheet) do%>
 <link rel="stylesheet" type="text/css" href="css/uno.css">
 <% end %>
 
-<% content_for (:style) do %>
-#box {
-  height:100px;
-  background-color:#AACC56;
-  opacity:0.4;
-}
-
-h1 {
-  text-align:center;
-}
-
-#test {
-  background-color:#FF55AA;
-    border-radius:10px 0 10px 0;
-  -webkit-border-radius:10px 0 10px 0;
-  -moz-border-radius:10px 0 10px 0;
-  
-}
-
-<% end %>
-<div class="grid_5 prefix_4 corners" id="box">
-  <h1>Hola Primate!!</h1>
+<div id="LeftBox">
+<div class="caja corners" id="L01">
+  <a href="#">
+    <div class="border corners fondo2">
+      <h1 class="typo">Tema 01</h1>
+    </div>
+  </a>
 </div>
-<div class="clear"></div>
-<div class="grid_2 prefix_4">
-  <h1>Torito!!</h1>
+<div class="caja corners" id="L02">
+  <a href="#">
+    <div class="border corners fondo">
+      <h1 class="typo">Tema 02</h1>
+    </div>
+  </a>
 </div>
-<div class="grid_4 alpha" id="test">
-  <h1>NOOO!!</h1>
+
+<div class="caja corners" id="L03">
+  <a href="#">
+    <div class="border corners fondo">
+      <h1 class="typo">Tema 03</h1>
+    </div>
+  </a>
+</div>
+<div class="caja corners" id="R01">
+  <a href="#">
+    <div class="border corners fondo">
+      <h1 class="typo">Tema 04</h1>
+    </div>
+  </a>
+</div>
+<div class="caja corners" id="R02">
+  <a href="#">
+    <div class="border corners fondo">
+      <h1 class="typo">Tema 05</h1>
+    </div>
+  </a>
+</div>
+<div class="caja corners" id="R03">
+  <a href="#">
+    <div class="border corners fondo2">
+      <h1 class="typo">Tema 06</h1>
+    </div>
+  </a>
+</div>
 </div>
