@@ -94,3 +94,71 @@ a#logo {
 .medium {
   text-align:center;
 }
+
+.footLogo {
+  float:left;
+  background-color:#FFFFFF;
+  width:29px;
+  height:29px;
+  border-radius:5px 0 5px 0;
+  -webkit-border-radius:5px 0 5px 0;
+  -moz-border-radius:5px 0 5px 0;
+  behavior: url(../pie/PIE.htc); /* pie css3 */
+}
+
+.fa{
+  margin:10px 13px 10px 30px;
+  background:url('http://www.oficinasvirtualesmex.com/jcpvg/logoFa2.png') no-repeat;
+  background-size:30px 30px;
+}
+
+.tw{
+  margin:10px 13px 10px 15px;
+  background:url('http://www.oficinasvirtualesmex.com/jcpvg/logoTw.png') no-repeat;
+  background-size:30px 30px;
+}
+
+#apio {
+  position:relative;
+  top:-40px;
+  font-family:"Courier New", Courier, monospace;
+  font-size:12px;
+}
+
+#apio p {
+  width:120px;
+  height:45px;
+  padding:20px 20px 0 0;
+  text-align:right;
+  background-color:#35440C;
+  color:white;
+  border-radius:0 0 5px 5px;
+  -webkit-border-radius:5px 0 5px 0;
+  -moz-border-radius:5px 0 5px 0;
+  behavior: url(../pie/PIE.htc); /* pie css3 */
+}
+
+#apio a {
+  text-decoration:none;
+}
+
+#apio b {
+  color:#FFFFFF;
+}
+
+#apio a:link, a:visited {
+  color:#FF6600;
+  text-decoration:none;
+  	transition-property:color;
+  	transition-duration:0.5s;
+  	-moz-transition-property: color; /* Firefox 4 */
+	-webkit-transition-property:color; /* Safari and Chrome */
+	-o-transition-property:color; /* Opera */
+	-webkit-transition-duration: 0.5s; /* Safari */
+}
+
+#apio a:hover b, a:active b{
+  color:#FF6600;
+  font-weight:bold;
+  text-decoration:none;
+}

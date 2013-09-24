@@ -45,6 +45,16 @@
   text-align:right;
 }
 
+p.root a:link, a:visited {
+  color:#35440C;
+  text-decoration:none;
+}
+
+p.root a:hover, a:active {
+  color:red;
+  text-decoration:underline;
+}
+
 .titleMain {
   font-size:18px;
   text-align:left;
@@ -54,12 +64,55 @@
 
 .textMain {
   width:308px;
+  font-size:12px;
+  padding-left:13px;
+}
+
+.plecaNa {
   border:5px solid #FF6600;
   border-top:0;
   border-right:0;
   border-bottom:0;
-  font-size:12px;
-  padding-left:13px;
+}
+
+.plecaBl {
+  border:5px solid #FFFFFF;
+  border-top:0;
+  border-right:0;
+  border-bottom:0;
+}
+
+div.plecaBl {
+  margin:50px 0 0 0;
+}
+
+div.plecaNa {
+  margin:15px 0;
+}
+
+div.plecaNa p {
+  display:inline;
+  position:relative;
+  top:-33px;
+  left:50px;
+}
+
+div.plecaNa a {
+  text-decoration:none;
+}
+
+.plecaVe {
+  border:5px solid #35440C;
+  border-top:0;
+  border-right:0;
+  border-bottom:0;
+}
+
+.textMain span.subTitle { /*ojo no hay otro subTitle en Menu.css*/
+  font-size:14px;
+  color:#35440C;
+  font-weight:bold;
+  line-height:30px;
 }
 
 .acotacion {
@@ -80,10 +133,35 @@
   background-color:#FF6600;
 }
 
+div.boxZ p {
+  margin:0;
+  padding:5px;
+  font-size:10px;
+  color:#FFFFFF;
+}
+
+div.boxZ img {
+  width:107px;
+  height:107px;
+  margin:5px 0 0 5px;
+}
+
+div.boxOut a.green p {
+  color:#35440C;
+}
+
 .middle {
   text-align:center;
   font-size:12px;
   color:#35440C;
+}
+
+.right_align {
+  text-align:right;
+}
+
+.left_align {
+  text-align:left;
 }
 
 #EPyC01 {
@@ -104,4 +182,18 @@ div.boxOut a:hover p, a:active p {
   font-weight:bold;
 }
 
+div.boxOut a.green:hover p, a.green:active p {
+  color:red;
+  text-decoration:underline;
+  font-size:10px;
+  font-weight:normal;
+}
 
+.orange {
+  color:#FF6600;
+}
+
+.contactLogo {
+	clear: both;
+	display:block;
+}

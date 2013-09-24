@@ -70,6 +70,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  text-decoration:none;
+}
+
 .border {
   border:15px solid transparent;
   border-image:url(../img/borderTyB.png) 30 30 round;
