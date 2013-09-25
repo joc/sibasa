@@ -136,8 +136,8 @@ div.plecaNa a {
 div.boxZ p {
   margin:0;
   padding:5px;
-  font-size:10px;
   color:#FFFFFF;
+  font-size:11px;
 }
 
 div.boxZ img {
@@ -154,6 +154,10 @@ div.boxOut a.green p {
   text-align:center;
   font-size:12px;
   color:#35440C;
+}
+
+.first {
+  clear:both;
 }
 
 .right_align {
