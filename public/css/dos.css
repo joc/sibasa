@@ -7,10 +7,65 @@
   margin-left:0;
 }
 
+/* Apartir de aqui corresponde a logotipos de alianzas */
+#cajasIzquierda {
+  background-color:transparent;
+  width:auto;
+  height:auto;
+}
+
+#logotipos {
+  padding:0;
+  margin:280px 0 0 0;
+  width:235px;
+  height:auto;
+  text-align:center;
+}
+
+#logotipos a {
+margin:10px 0;
+}
+
+#logotipos h4 {
+  color:#FFFFFF;
+  font-size:12px;
+  opacity:0.8;
+  filter:alpha(opacity=80); /* For IE */
+}
+
+a#conaimuc {
+  background:transparent url("http://www.oficinasvirtualesmex.com/jcpvg/logo_conaimuc.png") no-repeat;
+  width:230px;
+  height:65px;
+  float:left;
+}
+
+a#siglo12 {
+  background:transparent url("http://www.oficinasvirtualesmex.com/jcpvg/logo_siglo12.png") no-repeat;
+  width:230px;
+  height:86px;
+  float:left;
+}
+
+a#pinakes {
+  background:transparent url("http://www.oficinasvirtualesmex.com/jcpvg/logo_pinakes.png") no-repeat;
+  width:230px;
+  height:98px;
+  float:left;
+}
+
+#cajaCentral {
+  margin-left:-10px;
+}
+
+/* FIN de lo que corresponde a logotipos de alianzas */
+
 #boxContent {
   background-color:white;
   margin:-48px 0 20px 0;
-  padding:10px 20px 20px 58px;
+  padding:10px 20px 20px 38px; /* padding left se resto 20px por scroll*/
+  height:630px;
+  overflow:scroll; /* esto hace que el contenido de la cajaCentral pueda desplazarce con las barras laterles */
 }
 
 .fantasma {
@@ -183,14 +238,19 @@ div.boxOut a:link, a:visited {
 
 div.boxOut a:hover p, a:active p {
   color:red;
-  font-weight:bold;
+  text-decoration:underline;
 }
 
-div.boxOut a.green:hover p, a.green:active p {
-  color:red;
+div.boxOut a.fondoN:link p, a.fondoN:visited p {
+  color:#000000;
   text-decoration:underline;
-  font-size:10px;
-  font-weight:normal;
+}
+
+div.boxOut a.fondoN:hover p, a.fondoN:active p {
+  color:#FFFFFF;
+  text-decoration:none;
+  opacity:0.8;
+  filter:alpha(opacity=80); /* For IE */
 }
 
 .orange {

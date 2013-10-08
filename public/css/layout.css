@@ -1,13 +1,14 @@
 html {
-	background: #FFFFFF;
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#DBD2FE));
-	background: -webkit-linear-gradient(#FFFFFF, #DBD2FE);
-	background: -moz-linear-gradient(#FFFFFF, #DBD2FE);
-	background: -ms-linear-gradient(#FFFFFF, #DBD2FE);
-	background: -o-linear-gradient(#FFFFFF, #DBD2FE);
-	background: linear-gradient(#FFFFFF, #DBD2FE);
-	-pie-background: linear-gradient(#FFFFFF, #DBD2FE);
-	behavior: url(/pie/PIE.htc);
+	background: #CFE6B3;
+/*	background-repeat:no-repeat;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#44C150));
+	background: -webkit-linear-gradient(#FFFFFF, #44C150);
+	background: -moz-linear-gradient(#FFFFFF, #44c150);
+	background: -ms-linear-gradient(#FFFFFF, #44c150);
+	background: -o-linear-gradient(#FFFFFF, #44c150);
+	background: linear-gradient(#FFFFFF, #44c150);
+	-pie-background: linear-gradient(#FFFFFF, #44c150);
+	behavior: url(/pie/PIE.htc);*/
 }
 /*p {
   background-color:orange;
