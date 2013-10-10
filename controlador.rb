@@ -37,3 +37,7 @@ end
 get '/contacto' do
   erb :contacto
 end
+
+get '/form' do
+  erb :form
+end

@@ -261,3 +261,14 @@ div.boxOut a.fondoN:hover p, a.fondoN:active p {
 	clear: both;
 	display:block;
 }
+
+a.linkForm:link, a.linkForm:visited {
+  color:red;
+  text-align:center;
+  font-size:12px;
+} 
+
+a.linkForm:hover, a.linkForm:active {
+  text-decoration:underline;
+}
+

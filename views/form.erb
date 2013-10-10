@@ -1,0 +1,47 @@
+<% content_for (:title) do %>
+Formulario
+<% end %>
+
+<% content_for (:styleSheet) do %>
+<link rel="stylesheet" type="text/css" href="css/dos.css">
+<link rel="stylesheet" type="text/css" href="css/uno.css">
+<% end %>
+
+  <div class="grid_3" id="cajasIzquierda">
+  <!-- Alianzas tres logotipos-->
+    <div id="logotipos">
+      <h4>Alianzas</h4>
+      <a href="#" title="CONAIMUC" id="conaimuc"></a>
+      <a href="#" title="Siglo 12" id="siglo12"></a>
+      <a href="#" title="Pinakes" id="pinakes"></a>
+    </div><!--logotipos-->
+  </div><!--cajasIzquierda-->
+  <div class="grid_6" id="cajaCentral">
+    <div class="corners" id="boxContent">
+      <h1 class="titleMain"> 
+        Formulario
+      </h1>
+      <p class="textMain plecaVe" style="font-size:18px;">
+        <span class="subTitle" style="font-size:18px;">Escribenos,</span><br>
+        <span class="orange">con gusto te atenderemos.</span>
+      </p>
+      <ul style="color:red; font-weight:bold;">
+        <li>Mensaje, v&aacute;lido o de error.</li>
+      </ul>
+			<form action="inicio" method="">
+					<p class="textMain plecaNa">
+				    	<label for="name">Nombre:</label><br>
+				        <input type="text" name="name" id="name">
+				    </p>
+				    <p class="textMain plecaVe">
+				    	<label for="email">Email:</label><br>
+				        <input type="text" name="email" id="email">
+				    </p>
+				    <p class="textMain plecaNa">
+				    	<label for="message">Mensaje:</label><br>
+				        <textarea style="width:200px;height:80px;"name="message" id="message"></textarea>
+				    </p>
+					<p><input type="submit" value="Enviar"></p>
+			</form>
+	  </div><!--boxContent-->
+  </div><!--cajaCentral-->
