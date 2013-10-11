@@ -1,23 +1,10 @@
+/*no cambiar medidas en General*/
 html {
-	background: #CFE6B3;
-/*	background-repeat:no-repeat;
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#44C150));
-	background: -webkit-linear-gradient(#FFFFFF, #44C150);
-	background: -moz-linear-gradient(#FFFFFF, #44c150);
-	background: -ms-linear-gradient(#FFFFFF, #44c150);
-	background: -o-linear-gradient(#FFFFFF, #44c150);
-	background: linear-gradient(#FFFFFF, #44c150);
-	-pie-background: linear-gradient(#FFFFFF, #44c150);
-	behavior: url(/pie/PIE.htc);*/
+	background:#FFFFFF url(../img/background.jpg) repeat-x;/*#CFE6B3*/
 }
-/*p {
-  background-color:orange;
-  text-align:center;
-}*/
 
 #bodyMain {
   background-color:#FF6600;/*naranja*/
-/*  background:url(../images/960_grid_12_col.png) no-repeat center;*/
   font-family:Verdana, Geneva, sans-serif;
 }
 
@@ -34,14 +21,14 @@ a#logo {
   -webkit-border-radius:0 0 15px 0;
   -moz-border-radius:0 0 15px 0;
   behavior: url(../pie/PIE.htc); /* pie css3 */
-/*  opacity:0.4;*/
 }
 
 #menuTop {
   background:url(../img/bg_MenuTop.png) no-repeat -14px 0px; /*imagen Blanca de fondo*/
   width:720px;
-  height:96px;
-  margin-left:-10px;
+  height:76px;
+  margin-left:-10px;/*no cambiar medidas*/
+  padding:10px 0;/*no cambiar medidas*/
 }
 
 #menuTop {
@@ -85,7 +72,6 @@ a#logo {
 #footer {
   background-color:#35440C;/*verde*/
   height:55px;
-  /*background-image:url(../images/960_grid_12_col.png)*/
 }
 
 #footer p{
@@ -131,15 +117,18 @@ a#logo {
 
 #apio {
   position:relative;
-  top:-40px;
+  float:right;
+  clear: both;
+	display:block;
   font-family:"Courier New", Courier, monospace;
   font-size:12px;
+  margin:-65px 10px 0 0;
 }
 
 #apio p {
   width:120px;
   height:45px;
-  padding:20px 20px 0 0;
+  padding:8px 13px 0 0;
   text-align:right;
   background-color:#35440C;
   color:white;
